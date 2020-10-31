@@ -1,5 +1,6 @@
 body{
     background-color: #f7f7f7;
+    font-family: verdana;
 }
 
 .photo {
@@ -11,6 +12,15 @@ body{
     color: #505050;
 }
 
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
 /* Aqui agente quer mudar só a cor o post_title */
 .post_title {
     font-size: 16px;
@@ -30,6 +40,7 @@ body{
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize; /*Letras iniciais maiúscula*/
 }
 
 .post_image {
