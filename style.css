@@ -1,6 +1,8 @@
 body{
     background-color: #f7f7f7;
     font-family: verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
@@ -41,10 +43,12 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize; /*Letras iniciais maiúscula*/
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .contacts_list {
