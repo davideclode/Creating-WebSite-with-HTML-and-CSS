@@ -1,13 +1,13 @@
 body{
     background-color: #f7f7f7;
     font-family: verdana;
-    max-width: 900px;
-    margin: auto;
+    max-width: 900px; /*Não permite que ocorra defasagem quando a tela for menor que 900px*/
+    margin: auto; /* O "margin: auto;" cria espaçamento nos lados*/
 }
 
 .photo {
     border: 1px solid #505050;
-    border-radius: 50%;
+    border-radius: 45%;
 }
 
 #title, .subtitle, .post_title {
@@ -15,17 +15,21 @@ body{
 }
 
 #title {
+    /*font-size altera o tamanho do texto */
     font-size: 40px;
+    /* "text-transform" Altera o texto entre maiúsculo e minusculo */
     text-transform: uppercase;
 }
 
 a {
+    /* "line-through" corta a palavra ao meio. Poderiamos trocar "line-through" pelo "none"*/
     text-decoration: line-through;
-    color: #505050;
+    color: #505995;
 }
 /* Aqui agente quer mudar só a cor o post_title */
 .post_title {
     font-size: 16px;
+    /* "font-style" altera o estilo/aparência do texto*/
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
@@ -48,10 +52,11 @@ a {
 
 .post_image {
     margin-bottom: 15px;
-    width: 100%;
+    width: 100%; /*Com o "100%" ele vai respeitar o elemento que está de fora*/
 }
 
 .contacts_list {
+    /* list-style-type: square; */
     list-style-type: none;
     padding-left: 15px;
 }
